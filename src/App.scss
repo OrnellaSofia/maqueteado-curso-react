@@ -1,0 +1,65 @@
+$primary-color: coral;
+
+.header {
+  display: flex;
+  width: auto;
+  height: 58px;
+  background-color:  #fff159;
+  justify-content: space-around;
+
+  .logo{
+    margin-top: 5px;
+    height: 50px;
+    width: 220px;
+  }
+
+  .div-search-bar{
+    box-shadow: 2px 2px #B0B0B0;
+    height: 35px;
+    width: 700px;
+    margin-top: 5px;
+    background-color: white;
+
+    .search-bar{
+      height: 30px;
+      width: 650px;
+      border-top-style: hidden;
+      border-right-style: hidden;
+      border-left-style: hidden;
+      border-bottom-style: hidden;
+
+      &:focus {
+        outline:none;
+    }
+    }
+  }
+
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.content{
+  margin-top: 50px;
+  display: grid;
+  // margin-right: 100px;
+  margin-left: 100px;
+  grid-template-columns: 248px auto;
+
+  ul {
+    list-style-type: none;
+}
+}
+
+.products{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+
+  .one-product{
+    width: 300px;
+  }
+}
