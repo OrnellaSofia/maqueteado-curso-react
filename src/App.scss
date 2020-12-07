@@ -1,5 +1,10 @@
 $primary-color: coral;
 
+
+.App{
+  background-color:	#F0F0F0;
+}
+
 .App-link {
   color: #61dafb;
 }
@@ -9,6 +14,5 @@ $primary-color: coral;
   display: grid;
   margin-left: 100px;
   grid-template-columns: 248px auto;
-
 }
 
