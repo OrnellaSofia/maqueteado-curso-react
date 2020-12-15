@@ -3,7 +3,6 @@ import './styles.scss';
 import Product from '../Product'
 import Categories from '../Categories'
 
-
 class Productos extends React.Component {
     constructor(props){
       super(props)

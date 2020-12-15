@@ -4,7 +4,6 @@ import apiRoutes from '../../constants/routes'
 import Product from '../Product'
 import ReactDOMServer from 'react-dom/server';
 
-
 class Categories extends React.Component {
   constructor(props){
     super(props)

@@ -18,6 +18,13 @@
       width: 700px;
       margin-top: 5px;
       background-color: white;
+      display: flex;
+
+      .search-icon{
+        margin-top: 10px;
+        margin-left: 10px;
+        cursor: pointer;
+      }
   
       .search-bar{
         height: 30px;
