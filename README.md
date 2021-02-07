@@ -1,3 +1,5 @@
+Project for a React Course, copying the popular website https://www.mercadolibre.com.ar/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
